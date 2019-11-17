@@ -1,0 +1,105 @@
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+#left, #right{
+	height: 170vh;
+	width: 20vw;
+	background-image: url(images/bg.jpg);
+}
+#contain{
+	height: 170vh;
+	width: 60vw;
+	background-image: url(images/bgcontainer.jpg);
+	background-size: 60vw 170vh;
+	z-index: -1;
+}
+.imgcontent{
+	height: 170vh;
+	width: 60vw;
+	position: absolute;
+}
+
+#footer img{
+	width: 56.3%;
+	height: 15%;
+	position: absolute;
+	bottom: -468px;
+	left: 20vw;
+	transform: translateX(4.2%);
+}
+
+img{
+	z-index: -1;
+}
+
+#menu{
+	display: flex;
+	justify-content: center;
+}
+
+#menu img{
+	width: 56.3%;
+	height: 15%;
+	position: absolute;
+	top: 8px;
+	transform: translateX(1.2%);
+}
+
+#menu ul li{
+	list-style: none;
+	display: block;
+	float: left;
+	margin-left: 30px;
+	text-decoration: underline;
+}
+
+#top-image{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+#top-image img{
+	height: 150px;
+	width: 45vw;
+}
+
+#content{
+	height: 820px;
+	padding: 0 50px 0 50px;
+}
+
+.imgmap{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	float: left;
+	left: -10px;
+}
+
+.cap{
+	font-size: 80px;
+	position: relative;
+	top: 27px;
+}
+
+.tgl{
+	position: relative;
+	top: -30px;
+	left: 60px;
+}
+
+.quote{
+	margin-right: 12px;
+}
+
+.p2	{
+	position: relative;
+	top: -30px;
+}
+
+.divid{
+	position: absolute;
+	transform: translateX(12%);
+}

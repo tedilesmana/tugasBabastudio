@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Exercises 5</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="logo" class="container">
+	<h1><a href="#">FORM EXERCISE</a></h1>
+</div>
+
+<div id="page" class="container">
+	<div id="box1">
+		<h2 class="title"><a href="#">Member Registration Form</a></h2>
+		<div style="clear: both;">&nbsp;</div>
+		<div class="entry">
+			<p><strong>Fill out the registration form on the side with the correct data. All the fields that exist in this form must be filled</strong></p>
+			
+		</div>
+	</div>
+    
+	<div id="box2">
+   <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+   		<table cellpadding="4" margintop="0">
+   			<tbody>
+   				<tr>
+   					<td width="100">Fullname</td>
+   					<td width="20">:</td>
+   					<td><input type="text" name="fullname" autocomplete="off" required></td>
+   				</tr>
+   				<tr>
+   					<td width="100">Username*</td>
+   					<td width="20">:</td>
+   					<td><input type="text" name="username" autocomplete="off" required></td>
+   				</tr>
+   				<tr>
+   					<td width="100">Password*</td>
+   					<td width="20">:</td>
+   					<td><input type="password" name="pass" autocomplete="off" required></td>
+   				</tr>
+   				<tr>
+   					<td width="100">Email*</td>
+   					<td width="20">:</td>
+   					<td><input type="email" name="email" autocomplete="off" required></td>
+   				</tr>
+   				<tr>
+   					<td width="100">Gender</td>
+   					<td width="20">:</td>
+   					<td>
+   						<input type="radio" name="gender" id="male"><label for="male">Male</label>
+   						&nbsp&nbsp&nbsp&nbsp
+   						<input type="radio" name="gender" id="female"><label for="female">Female</label>
+   					</td>
+   				</tr>
+   				<tr>
+   					<td width="100">Birth Date</td>
+   					<td width="20">:</td>
+   					<td>
+   						<select>
+   							<option value="">-Day-</option>
+   							<option value="1">1</option>
+   							<option value="2">2</option>
+   							<option value="3">3</option>
+   							<option value="4">4</option>
+   							<option value="5">5</option>
+   							<option value="6">6</option>
+   							<option value="dst">dst</option>
+   						</select>
+   						<select>
+   							<option value="">-Month-</option>
+   							<option value="1">1</option>
+   							<option value="2">2</option>
+   							<option value="3">3</option>
+   							<option value="4">4</option>
+   							<option value="5">5</option>
+   							<option value="6">6</option>
+   							<option value="dst">dst</option>
+   						</select>
+   						<select>
+   							<option value="">-Years-</option>
+   							<option value="2019">2019</option>
+   							<option value="2020">2020</option>
+   							<option value="2021">2021</option>
+   							<option value="2022">2022</option>
+   							<option value="dst">dst</option>
+   						</select>
+   					</td>
+   				</tr>
+   				<tr>
+   					<td width="100">Hoby</td>
+   					<td width="20">:</td>
+   					<td>
+   						<input type="checkbox" name="sport" value="sport" id="sport"><label for="sport">Sport</label>
+   						<input type="checkbox" name="travel" value="travel" id="travel"><label for="travel">Travel</label>
+   						<input type="checkbox" name="culture" value="culture" id="culture"><label for="culture">Culture</label><br>
+   						<input type="checkbox" name="culinary" value="culinary" id="culinary"><label for="culinary">Culinary</label>
+   						<input type="checkbox" name="shopping" value="shopping" id="shopping"><label for="shopping">Shopping</label>
+   						<input type="checkbox" name="praying" value="praying" id="praying"><label for="praying">Praying</label>
+   					</td>
+   				</tr>
+   				<tr>
+   					<td width="100" valign="top">Address</td>
+   					<td width="20" valign="top">:</td>
+   					<td><textarea name="address" rows="6"></textarea></td>
+   				</tr>
+   			</tbody>
+   		</table>
+	 
+   		
+	</div>
+    
+    
+    
+</div>
+<div id="footer" class="container">
+	<p>Copyright (c) 2013 Your Name </p>
+</div>
+</body>
+</html>

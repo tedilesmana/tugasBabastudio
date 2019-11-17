@@ -1,0 +1,41 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+}
+.p{
+	padding:30px 40px 30px 40px;
+	border: 2px solid grey;
+	width: 75%;
+	margin: 20px;
+	display: flex;
+}
+.p p{
+	margin-left: 40px;
+}
+.img::after{
+	content:"";
+	border: 2px solid white;
+	display: block;
+	position: relative;
+	transform: translate(-10%,-90%);
+	height: 120%;
+	width: 120%;
+}
+#p1{
+	background-color: #9168b3;
+}
+#p2{
+	background-color: #a8b368;
+	float: right;
+}
+#p3{
+	background-color: #b36c68;
+}
+#p4{
+	background-color: #636363;
+	float: right;
+}
