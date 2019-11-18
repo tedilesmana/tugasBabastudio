@@ -97,7 +97,6 @@ body{
 	justify-content: space-between;
 	font-family: 'bold';
 	color: white;
-	position: fixed;
 	z-index: 9;
 }
 
