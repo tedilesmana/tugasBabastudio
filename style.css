@@ -97,7 +97,8 @@ body{
 	justify-content: space-between;
 	font-family: 'bold';
 	color: white;
-	z-index: 9;
+	position: fixed;
+	z-index: 1;
 }
 
 #navbar ul{
@@ -607,7 +608,6 @@ body{
 }
 
 #newProduk .produk .ls-produk{
-	width: 350px;
 	transition: .3s;
 }
 
