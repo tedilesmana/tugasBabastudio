@@ -63,11 +63,11 @@ body{
 
 .content{
 	color: black;
-	width: 100vw;
-	height: 100%;
+	width: auto;
 	position: relative;
-	padding-right: 150px;
-	padding-left: 150px;
+	padding-right: 10%;
+	padding-left: 10%;
+	width: 80%;
 }
 
 .bold{
@@ -89,14 +89,19 @@ body{
 	<!-- ####################################### -->*/
 #navbar{
 	background-color: black;
-	height: 65px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	font-family: 'bold';
-	color: white;
+	position: fixed;
 	z-index: 1;
+}
+
+.c-nav{
+	height: 65px;
+	width: 100%;
+	font-family: 'bold';
 	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
 }
 
 #navbar ul{
@@ -125,6 +130,14 @@ body{
 .nav-left ul li{
 	margin-right: 40px;
 }
+
+/*.nav-left{
+	float: left;
+}
+
+.nav-right{
+	float: right;
+}*/
 
 .nav-right ul li{
 	margin-left: 20px;
