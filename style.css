@@ -93,6 +93,7 @@ body{
 	width:-moz-available;
 	width: -webkit-fill-available;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	font-family: 'bold';
@@ -116,10 +117,6 @@ body{
 	font-family: 'bold';
 }
 
-.nav-left{
-	float: left;
-}
-
 .nav-left .sup{
 	position: relative;
 	background-color: #007b63;
@@ -130,10 +127,6 @@ body{
 
 .nav-left ul li{
 	margin-right: 40px;
-}
-
-.nav-right{
-	float:right;
 }
 
 .nav-right ul li{
@@ -603,7 +596,9 @@ body{
 }
 
 #newProduk .produk{
+	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	text-align: center;
 }
@@ -611,6 +606,7 @@ body{
 #newProduk .produk .ls-produk{
 	transition: .3s;
 	width: 300px;
+	margin-bottom: 20px;
 }
 
 #newProduk .produk .ls-produk:hover{
