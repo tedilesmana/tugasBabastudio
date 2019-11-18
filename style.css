@@ -90,8 +90,6 @@ body{
 #navbar{
 	background-color: black;
 	height: 65px;
-	width:-moz-available;
-	width: -webkit-fill-available;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -221,8 +219,8 @@ body{
 	width: auto;
 	position: relative;
 	top: 60px;
-	width:-moz-available;
-	width: -webkit-fill-available;
+/*	width:-moz-available;
+	width: -webkit-fill-available;*/
 }
 
 #slider .label{
