@@ -228,6 +228,8 @@ body{
 	width: auto;
 	position: relative;
 	top: 60px;
+	width:-moz-available;
+	width: -webkit-fill-available;
 }
 
 #slider .label{
@@ -623,6 +625,7 @@ body{
 #footer{
 	background-color: black;
 	color: white;
+	width: 100vw;
 }
 
 #footer center{
